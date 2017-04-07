@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:Layout_Absolute" 
+	x:Class="Layout_Absolute.Layout_AbsolutePage">
+<!--	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />-->
+
+	<!--<AbsoluteLayout>
+		<BoxView 
+			BackgroundColor="Gray" 
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0,0,1,1" />
+
+		<BoxView 
+			BackgroundColor="Aqua" 
+			AbsoluteLayout.LayoutFlags="PositionProportional"
+			AbsoluteLayout.LayoutBounds="0.5,0.1,100,100" />
+
+		<BoxView 
+			BackgroundColor="Green" 
+			AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+			AbsoluteLayout.LayoutBounds="0,1,1,60" />
+	</AbsoluteLayout>-->
+
+	<!--<AbsoluteLayout>
+		<Image Source="http://twimg.edgesuite.net/images/ReNews/20170309/640_487e607fc5258aec838237a4ab2a1362.jpg"
+			Aspect="AspectFill"
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0,0,1,1" />
+
+		<BoxView 
+			x:Name="xBoxView"
+			BackgroundColor="Gray"
+			Opacity="0.6"
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0,0,1,1" />
+
+		<ActivityIndicator 
+			x:Name="xActivityIndicator"
+			IsRunning="true" Color="White"
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"/>
+	</AbsoluteLayout>-->
+
+	<AbsoluteLayout>
+		<Image Source="http://twimg.edgesuite.net/images/ReNews/20170309/640_487e607fc5258aec838237a4ab2a1362.jpg"
+			Aspect="AspectFill"
+			AbsoluteLayout.LayoutFlags="All"
+			AbsoluteLayout.LayoutBounds="0,0,1,1" />
+
+		<Label BackgroundColor="Blue" Opacity="0.6" Text="貓咪每次洗澡的時候都抱著椅子" TextColor="White" 
+			FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+			AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+			AbsoluteLayout.LayoutBounds="0,0,1,50"/>
+
+		<Label BackgroundColor="Black" Opacity="0.6" Text="喜歡" TextColor="White" 
+			FontSize="25" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+			AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+			AbsoluteLayout.LayoutBounds="0,1,0.5,60"/>
+
+		<Label BackgroundColor="Black" Opacity="0.6" Text="有趣" TextColor="White" 
+			FontSize="25" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+			AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+			AbsoluteLayout.LayoutBounds="1,1,0.5,60"/>
+		
+	</AbsoluteLayout>
+	
+</ContentPage>
